@@ -1,4 +1,4 @@
-# ORBITE NOVA — version de travail 0.3.0
+# ORBITE NOVA — version de travail 0.4.0
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -22,3 +22,7 @@ Tests locaux de démarrage, changement de thème, F8 et arrêt, progression pers
 Version 0.2.0 : fond cosmique 3840 px inclus, modèle officiel exposé via le catalogue disponible, flèches de coques et lasers, animation douce limitée à 30 images/s uniquement dans le hangar. Tests locaux du défilement circulaire, sélection, désactivation et arrêt réussis ; validation visuelle réelle à confirmer.
 
 Version 0.3.0 : vaisseau droit sans oscillation angulaire automatique, commandes sociales du bas masquées, panneau autour de Jouer transparent. Six nouvelles coques et six tirs personnalisés avec shader commun au hangar et à la partie. Aperçu Original neutre. Validation visuelle réelle encore nécessaire.
+
+Version 0.4.0 : nouvelles coordonnées de texture sur chaque face de la coque, matériaux indépendants des bases officielles, relief géométrique (96 pièces maximum par coque) et reflets d’environnement. Caméra orbitale avec vue frontale inclinée, rotation par glissement, rotation automatique facultative et retour à la vue initiale. Les collisions et règles officielles restent identiques.
+
+Validation 0.4.0 : 198 combinaisons (33 modèles × 6 skins) contrôlées pour couverture, coordonnées valides, absence de reconstruction par image et restauration native. Six matériaux rendus avec le moteur Three.js r85 en aperçu local, sans erreur WebGL capturée. Pas encore validé dans une partie officielle. Le relief ajoute un objet de rendu par vaisseau ; les performances dépendent du matériel et du nombre de vaisseaux.

@@ -18,3 +18,5 @@ Ce dossier est livré localement à l’utilisateur avec ses propres assets ; au
 - Intérieurs ECP : six images référencées dans TRIGGER-SB 0.9.1 (Nanoray / Halcyon). Extraction statique des URL, sans exécution de son code obfusqué. Sources : https://raw.githubusercontent.com/ndfsaaa/3gr/refs/heads/main/seraphim.png ; ironclad.png ; biomorph.png ; sarepta.png ; legion.png ; unidentified.png dans le même dossier. Titres : Steel Seraphim, A. Ironclad’s Group, Biomorph Cult, Sarepta Restorationists, Ruggül Order, Hostile. Droits des auteurs respectifs ; pas de publication publique effectuée.
 - Subspace : https://github.com/PixelMelt/Subspace documente l’extension à cinq émotes et des modifications ciblées du code natif. ORBITE applique indépendamment un remplacement vérifié de la seule limite 4→5 ; aucun loader, DRM, analytics ou autre fonctionnalité de Subspace intégré.
 - Les 12 pictogrammes vectoriels d’émotes et les quatre textures de coque supplémentaires sont originaux.
+
+Fond du hangar NOVA : cosmic-landscape-space-background.jpg fourni par GIGACRMANTHE, version de distribution redimensionnée en 3840 px.

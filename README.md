@@ -1,4 +1,4 @@
-# ORBITE NOVA — version de travail 0.5.0
+# ORBITE NOVA — version de travail 0.6.0
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -30,3 +30,7 @@ Validation 0.4.0 : 198 combinaisons (33 modèles × 6 skins) contrôlées pour c
 Version 0.5.0 : retrait des petites pièces répétées. 33 profils de modèles distincts règlent les chemins d’énergie, les voiles latéraux et les auras de coque. Les chemins sont posés sur la géométrie du modèle et coupés dans les espaces vides. Les voiles sont des ajouts visuels énergétiques, sans changement des collisions. Couleurs liées au matériau sélectionné ; animations partagées entre hangar et partie. Géométries des effets mises en cache par modèle, deux objets de rendu supplémentaires par coque. Les modèles inconnus utilisent un flux discret sans ailerons.
 
 Contrôles : 198 combinaisons modèle/matériau et restauration native, aperçu local de six modèles officiels avec animations sans erreurs WebGL. Pas de validation en partie officielle à ce stade.
+
+Version 0.6.0 : finition brossée et nuances nacrées, reflets rééquilibrés. Chargement avec miniature animée du vaisseau et progression native. Panneau de vol compact : modèle actuel, bouclier/capacité, énergie/capacité, score et kills du joueur local. Aucune valeur simulée dans le client : panneau masqué en cas de données absentes ou périmées, de mort ou de désactivation. La miniature est recalculée seulement au changement de modèle ou de matériau. Le panneau complète les informations natives.
+
+Validation : aperçu local du chargement et du panneau avec données fictives explicitement signalées ; tests du raccordement aux champs natifs, bouclier nul, mort, données périmées, F8 et restauration des fonctions. Tests des 198 variantes de coques et du démarrage. Une vérification dans une partie officielle reste nécessaire.

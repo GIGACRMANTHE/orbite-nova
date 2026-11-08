@@ -1,4 +1,4 @@
-# ORBITE full edition — version de travail 0.9.2
+# ORBITE full edition — version de travail 0.9.3
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -78,3 +78,8 @@ Le registre du jeu est une variable interne, pas nécessairement une propriété
 Miniatures limitées aux éléments visibles, cache borné, tentatives de rendu espacées puis arrêtées après trois échecs. Protection contre le démarrage d’une seconde copie du client.
 
 Vérification navigateur : aperçu principal et miniatures visibles sans registre ni constructeur de vaisseau du jeu. Validation en partie réelle et mesure des freezes non effectuées.
+
+## 0.9.3
+Préparation progressive des coques et lasers du hangar, cache de géométries et miniatures dans un rendu séparé. En partie, les couches supplémentaires de géométrie sont retirées et les shaders de profondeur utilisent deux couches au lieu de quatre ; les matériaux personnalisés restent actifs. Pseudo et aperçu ECP recentrés. Les performances en combat réel restent à mesurer.
+
+Les réacteurs en partie conservent leurs jets colorés, avec une géométrie allégée et sans nuage de particules supplémentaire. La recherche des tuyères est espacée à 500 ms.

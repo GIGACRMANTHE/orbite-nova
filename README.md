@@ -1,4 +1,4 @@
-# ORBITE NOVA — version de travail 0.8.0
+# ORBITE full edition — version de travail 0.9.0
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -39,10 +39,23 @@ Version 0.7.0 : hangar permanent avec Vaisseaux, Lasers, ECP et Ambiance. Les vr
 
 Sur ordinateur (largeur ≥ 850 px), classement à gauche, arsenal à droite, RCS en haut à gauche et chat en bas à gauche ; adaptation commune des coordonnées visuelles et cliquables. La disposition mobile native et le radar sont conservés. Le score natif, les cristaux et les vies restent disponibles. Validation : tests locaux des jauges, restauration, coordonnées HUD, démarrage ; aperçu local du hangar, ECP et respawn. Tests en partie officielle encore nécessaires.
 
-Version 0.8.0 : annulation des déplacements 0.7 du classement, RCS, arsenal et chat ; positions officielles conservées. Statistiques compactes en haut à gauche. Remplacement des éléments natifs disponibles (bouclier, énergie, cristaux, score, niveau, vies), avec restauration si données absentes ; le réticule natif reste intact. Suppression des anneaux de projection du hangar. Radar à fond radial sombre et repères fins, contacts et informations natifs conservés.
+Version 0.9.0 : annulation des déplacements 0.7 du classement, RCS, arsenal et chat ; positions officielles conservées. Statistiques compactes en haut à gauche. Remplacement des éléments natifs disponibles (bouclier, énergie, cristaux, score, niveau, vies), avec restauration si données absentes ; le réticule natif reste intact. Suppression des anneaux de projection du hangar. Radar à fond radial sombre et repères fins, contacts et informations natifs conservés.
 
 Studio ECP : aperçu agrandi, import local PNG/JPEG/WebP jusqu’à 8 Mo et 8192 px, recadrage carré centré en 512 px, sauvegarde sur cet appareil, bouton d’effacement. L’image remplit l’intérieur de l’ECP sans changer ses droits ni être envoyée aux autres joueurs.
 
 Cinq matériaux supplémentaires : Cosmos profond (étoiles et parallaxe), Verre prismatique (transparence et reflets simulés), Couronne ionique, Brume spectrale (coque déformée visuellement et voile animé), Céramique mate sans aura. Ces effets ne sont pas une simulation volumétrique de fumée ni une réfraction physique du décor.
 
 Validation 0.8 : 363 combinaisons modèle/matériau, démarrage, restauration des jauges ; import d’image et rendu des matériaux vérifiés dans l’aperçu local. Partie officielle et agencement sur toutes les résolutions restent à vérifier.
+
+
+## Version 0.9.0
+
+- Hangar à miniatures : coques, lasers et insignes, puis grand aperçu orientable.
+- ECP reconstruit avec le dessinateur natif et ses proportions ; son image reste un dessin sur une surface 3D orientable. Import PNG/JPG/WebP local, plus Astrarium, Sceau fractal et Soleil noir.
+- Quatre anciens matériaux retirés : Verre stellaire, Titane polaire, Céramique solaire et Porcelaine orbitale.
+- Galerie des fonds : la sélection utilise le même univers dans le menu et en partie.
+- Pseudo : champ officiel conservé, envoyé normalement par le jeu ; les personnalisations visuelles restent locales.
+- Réglages : bouton du hangar relié à la fenêtre officielle, avec nouvelle présentation.
+- Un seul panneau de chargement visible ; statistiques transparentes plus lisibles, bouclier faible signalé en couleur.
+
+Tests : 231 couples modèle/matériau, shaders des six tirs, restauration des statistiques natives, démarrage sans serveur, arrêt/F8. Aperçu navigateur avec données fictives validé pour ECP, fonds et chargement. Pas de validation multijoueur réelle ni garantie de compatibilité avec toutes les futures versions de Starblast.

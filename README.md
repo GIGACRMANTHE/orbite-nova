@@ -1,4 +1,4 @@
-# ORBITE NOVA — version de travail 0.6.0
+# ORBITE NOVA — version de travail 0.7.0
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -11,7 +11,7 @@ Créateur : GIGACRMANTHE.
 - Nouveaux styles de chargement et de retour au combat ; actions et délais officiels conservés.
 - Progression locale : 100 XP/kill, 1 XP/100 points (plafond 1000), 500 XP/victoire. Attribution à la fin de partie uniquement si le jeu expose ses résultats. Pas de crédit pour une partie quittée sans résultat. Niveau de progression, pas estimation de compétence. Données propres à ce navigateur, sans serveur.
 - Fonds et assets inclus ; aucun import manuel.
-- F8 restaure les modifications ; bouton Menu classique ferme le hangar ; bouton Hangar NOVA le rouvre.
+- F8 désactive/réactive NOVA. Le hangar constitue le menu principal, sans bouton de sortie.
 
 ## Encore à réaliser
 Le HUD en partie conserve des composants issus d'ORBITE. Les lasers personnalisés partagent leur shader entre aperçu et partie ; leur échelle et leur luminosité dépendent aussi du rendu du jeu. Le catalogue de rochers sera ajouté séparément. Dépôt indépendant : GIGACRMANTHE/orbite-nova. Validation visuelle en navigateur et partie officielle nécessaire avant une diffusion générale.
@@ -34,3 +34,7 @@ Contrôles : 198 combinaisons modèle/matériau et restauration native, aperçu 
 Version 0.6.0 : finition brossée et nuances nacrées, reflets rééquilibrés. Chargement avec miniature animée du vaisseau et progression native. Panneau de vol compact : modèle actuel, bouclier/capacité, énergie/capacité, score et kills du joueur local. Aucune valeur simulée dans le client : panneau masqué en cas de données absentes ou périmées, de mort ou de désactivation. La miniature est recalculée seulement au changement de modèle ou de matériau. Le panneau complète les informations natives.
 
 Validation : aperçu local du chargement et du panneau avec données fictives explicitement signalées ; tests du raccordement aux champs natifs, bouclier nul, mort, données périmées, F8 et restauration des fonctions. Tests des 198 variantes de coques et du démarrage. Une vérification dans une partie officielle reste nécessaire.
+
+Version 0.7.0 : hangar permanent avec Vaisseaux, Lasers, ECP et Ambiance. Les vrais contrôles ECP, matériaux et tirs sont intégrés lorsque présents, sans contourner les droits du compte. Respawn centré et allégé. Vaisseau et jauges de bouclier/énergie sur fond transparent en bas au centre : les jauges natives sont masquées uniquement quand leur remplacement dispose de valeurs valides, puis restaurées à la désactivation ou en cas de perte des données.
+
+Sur ordinateur (largeur ≥ 850 px), classement à gauche, arsenal à droite, RCS en haut à gauche et chat en bas à gauche ; adaptation commune des coordonnées visuelles et cliquables. La disposition mobile native et le radar sont conservés. Le score natif, les cristaux et les vies restent disponibles. Validation : tests locaux des jauges, restauration, coordonnées HUD, démarrage ; aperçu local du hangar, ECP et respawn. Tests en partie officielle encore nécessaires.

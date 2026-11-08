@@ -1,4 +1,4 @@
-# ORBITE NOVA — version de travail 0.7.0
+# ORBITE NOVA — version de travail 0.8.0
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -7,7 +7,7 @@ Créateur : GIGACRMANTHE.
 ## Inclus
 - Hangar holographique sur fond cosmique fourni par le créateur ; onglets Vaisseaux et Lasers, navigation par flèches et molette. Bouton Jouer et modes officiels sous l’aperçu.
 - Aperçu 3D du modèle officiel, rotation par glissement, défilement molette, recentrage et anneaux de projection.
-- Six nouvelles coques et six tirs personnalisés, avec option Original. Le modèle d'exposition n'accorde pas un vaisseau de départ différent en partie officielle.
+- Onze coques et six tirs personnalisés, avec option Original. Le modèle d'exposition n'accorde pas un vaisseau de départ différent en partie officielle.
 - Nouveaux styles de chargement et de retour au combat ; actions et délais officiels conservés.
 - Progression locale : 100 XP/kill, 1 XP/100 points (plafond 1000), 500 XP/victoire. Attribution à la fin de partie uniquement si le jeu expose ses résultats. Pas de crédit pour une partie quittée sans résultat. Niveau de progression, pas estimation de compétence. Données propres à ce navigateur, sans serveur.
 - Fonds et assets inclus ; aucun import manuel.
@@ -38,3 +38,11 @@ Validation : aperçu local du chargement et du panneau avec données fictives ex
 Version 0.7.0 : hangar permanent avec Vaisseaux, Lasers, ECP et Ambiance. Les vrais contrôles ECP, matériaux et tirs sont intégrés lorsque présents, sans contourner les droits du compte. Respawn centré et allégé. Vaisseau et jauges de bouclier/énergie sur fond transparent en bas au centre : les jauges natives sont masquées uniquement quand leur remplacement dispose de valeurs valides, puis restaurées à la désactivation ou en cas de perte des données.
 
 Sur ordinateur (largeur ≥ 850 px), classement à gauche, arsenal à droite, RCS en haut à gauche et chat en bas à gauche ; adaptation commune des coordonnées visuelles et cliquables. La disposition mobile native et le radar sont conservés. Le score natif, les cristaux et les vies restent disponibles. Validation : tests locaux des jauges, restauration, coordonnées HUD, démarrage ; aperçu local du hangar, ECP et respawn. Tests en partie officielle encore nécessaires.
+
+Version 0.8.0 : annulation des déplacements 0.7 du classement, RCS, arsenal et chat ; positions officielles conservées. Statistiques compactes en haut à gauche. Remplacement des éléments natifs disponibles (bouclier, énergie, cristaux, score, niveau, vies), avec restauration si données absentes ; le réticule natif reste intact. Suppression des anneaux de projection du hangar. Radar à fond radial sombre et repères fins, contacts et informations natifs conservés.
+
+Studio ECP : aperçu agrandi, import local PNG/JPEG/WebP jusqu’à 8 Mo et 8192 px, recadrage carré centré en 512 px, sauvegarde sur cet appareil, bouton d’effacement. L’image remplit l’intérieur de l’ECP sans changer ses droits ni être envoyée aux autres joueurs.
+
+Cinq matériaux supplémentaires : Cosmos profond (étoiles et parallaxe), Verre prismatique (transparence et reflets simulés), Couronne ionique, Brume spectrale (coque déformée visuellement et voile animé), Céramique mate sans aura. Ces effets ne sont pas une simulation volumétrique de fumée ni une réfraction physique du décor.
+
+Validation 0.8 : 363 combinaisons modèle/matériau, démarrage, restauration des jauges ; import d’image et rendu des matériaux vérifiés dans l’aperçu local. Partie officielle et agencement sur toutes les résolutions restent à vérifier.

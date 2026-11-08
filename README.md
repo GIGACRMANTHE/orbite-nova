@@ -1,4 +1,4 @@
-# ORBITE full edition — version de travail 0.9.3
+# ORBITE full edition — version 0.9.4
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -83,3 +83,10 @@ Vérification navigateur : aperçu principal et miniatures visibles sans registr
 Préparation progressive des coques et lasers du hangar, cache de géométries et miniatures dans un rendu séparé. En partie, les couches supplémentaires de géométrie sont retirées et les shaders de profondeur utilisent deux couches au lieu de quatre ; les matériaux personnalisés restent actifs. Pseudo et aperçu ECP recentrés. Les performances en combat réel restent à mesurer.
 
 Les réacteurs en partie conservent leurs jets colorés, avec une géométrie allégée et sans nuage de particules supplémentaire. La recherche des tuyères est espacée à 500 ms.
+
+## 0.9.4
+- Sélections : aucune reconstruction globale du moteur au changement de coque ou ECP, cache des reflets partagé, miniatures ECP en 2D et invalidation par image. Les mises à jour natives ECP sont réparties sur plusieurs images.
+- Coques : Opale vivante, Abîme gravitationnel, Mercure irisé.
+- HUD compact : Placer les UI, glisser les zones encadrées, Terminer. Positions enregistrées localement ; bouton de réinitialisation. Classement, RCS, munitions, emotes et radar sont déplacés via leurs rectangles natifs quand ils sont détectés.
+- Statistiques : barre des cristaux et score lu depuis le même joueur que le compteur officiel.
+- Validation : tests automatisés, aperçu local des sélections, shaders et glisser-déposer. Pas de mesure de fluidité dans une partie publique peuplée.

@@ -1,4 +1,4 @@
-# ORBITE full edition — version 0.9.5
+# ORBITE full edition — version 0.9.6
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -7,7 +7,7 @@ Créateur : GIGACRMANTHE.
 ## Inclus
 - Hangar holographique sur fond cosmique fourni par le créateur ; onglets Vaisseaux et Lasers, navigation par flèches et molette. Bouton Jouer et modes officiels sous l’aperçu.
 - Aperçu 3D du modèle officiel, rotation par glissement, défilement molette, recentrage et anneaux de projection.
-- Onze coques et six tirs personnalisés, avec option Original. Le modèle d'exposition n'accorde pas un vaisseau de départ différent en partie officielle.
+- Quinze coques et onze tirs personnalisés, avec option Original. Le modèle d'exposition n'accorde pas un vaisseau de départ différent en partie officielle.
 - Nouveaux styles de chargement et de retour au combat ; actions et délais officiels conservés.
 - Progression locale : 100 XP/kill, 1 XP/100 points (plafond 1000), 500 XP/victoire. Attribution à la fin de partie uniquement si le jeu expose ses résultats. Pas de crédit pour une partie quittée sans résultat. Niveau de progression, pas estimation de compétence. Données propres à ce navigateur, sans serveur.
 - Fonds et assets inclus ; aucun import manuel.
@@ -95,3 +95,6 @@ Les réacteurs en partie conservent leurs jets colorés, avec une géométrie al
 Les panneaux du jeu retrouvent leurs positions et dimensions officielles. Les anciennes positions HUD sont ignorées. Un seul bouton ORBITE discret rassemble emotes, raccourcis et activation. Glisser ce bouton pour le déplacer ; cliquer pour ouvrir. Sa position seule est enregistrée.
 
 Le panneau personnalisé ne contient plus score/kills ni niveau/vies. Le compteur officiel du score est conservé.
+
+## 0.9.6
+Lasers : Fer de lance, Double hélice, Croissant plasma, Éclat de cristal, Impulsion segmentée. Coques : choisir Céramique mate pour afficher le sélecteur Couleur opaque. Couleur enregistrée localement et mise à jour sans reconstruire la géométrie. Matériaux officiels brillants : Zinc, Alliage, Or, Titane, Carbone, avec leurs textures et coordonnées originales préservées. Reflets renforcés, sans ajouter de géométrie. Aucun changement de dégâts ou de gameplay.

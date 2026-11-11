@@ -1,4 +1,4 @@
-# ORBITE full edition — version 0.9.4
+# ORBITE full edition — version 0.9.5
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -90,3 +90,8 @@ Les réacteurs en partie conservent leurs jets colorés, avec une géométrie al
 - HUD compact : Placer les UI, glisser les zones encadrées, Terminer. Positions enregistrées localement ; bouton de réinitialisation. Classement, RCS, munitions, emotes et radar sont déplacés via leurs rectangles natifs quand ils sont détectés.
 - Statistiques : barre des cristaux et score lu depuis le même joueur que le compteur officiel.
 - Validation : tests automatisés, aperçu local des sélections, shaders et glisser-déposer. Pas de mesure de fluidité dans une partie publique peuplée.
+
+## 0.9.5
+Les panneaux du jeu retrouvent leurs positions et dimensions officielles. Les anciennes positions HUD sont ignorées. Un seul bouton ORBITE discret rassemble emotes, raccourcis et activation. Glisser ce bouton pour le déplacer ; cliquer pour ouvrir. Sa position seule est enregistrée.
+
+Le panneau personnalisé ne contient plus score/kills ni niveau/vies. Le compteur officiel du score est conservé.

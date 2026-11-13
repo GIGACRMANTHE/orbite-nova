@@ -1,4 +1,4 @@
-# ORBITE full edition — version 0.9.8
+# ORBITE full edition — version 0.9.9
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -7,7 +7,7 @@ Créateur : GIGACRMANTHE.
 ## Inclus
 - Hangar holographique sur fond cosmique fourni par le créateur ; onglets Vaisseaux et Lasers, navigation par flèches et molette. Bouton Jouer et modes officiels sous l’aperçu.
 - Aperçu 3D du modèle officiel, rotation par glissement, défilement molette, recentrage et anneaux de projection.
-- Quinze coques et onze tirs personnalisés, avec option Original. Le modèle d'exposition n'accorde pas un vaisseau de départ différent en partie officielle.
+- Trente finitions de coque et dix-sept tirs personnalisés, avec option Original. Le modèle d'exposition n'accorde pas un vaisseau de départ différent en partie officielle.
 - Nouveaux styles de chargement et de retour au combat ; actions et délais officiels conservés.
 - Progression locale : 100 XP/kill, 1 XP/100 points (plafond 1000), 500 XP/victoire. Attribution à la fin de partie uniquement si le jeu expose ses résultats. Pas de crédit pour une partie quittée sans résultat. Niveau de progression, pas estimation de compétence. Données propres à ce navigateur, sans serveur.
 - Fonds et assets inclus ; aucun import manuel.
@@ -102,3 +102,13 @@ Lasers : Fer de lance, Double hélice, Croissant plasma, Éclat de cristal, Impu
 Version 0.9.7 : panneau de réglages unique au menu et en partie, accès conservé après désactivation, ancien bouton NOVA masqué. Cinq choix de réacteurs, fond original du jeu, barres de statut officielles ou ORBITE. Réacteurs recolorés sur la silhouette et la poussée natives, sans ajout de particules.
 
 Version 0.9.8 : personnalisation intégrée au hangar, catégories de coques et de tirs, 15 variations des cinq matériaux natifs (Aurore, Prisme, Chrome), 17 lasers, 9 réacteurs, 5 interfaces dont Original. Les cartes des interfaces sont des simulations à données fictives utilisant les fonctions de dessin du HUD. Les réacteurs conservent la poussée et les attaches du jeu.
+
+
+## 0.9.9 — profils et fidélité des aperçus
+- Original : matériau natif et atlas conservés pour la coque, forme native du laser, géométrie et matériau du réacteur récupérés depuis le modèle officiel. Les réacteurs sont montrés à poussée moyenne ; luminosité et éclairage varient pendant la partie.
+- Interfaces : retrait des fausses simulations. Les aperçus rejouent les composants natifs RCS, missiles, chat et classement capturés lors de la dernière partie. Ce ne sont pas des captures complètes de tout le HUD. Avant leur disponibilité, un message remplace l’aperçu.
+- Décor original au menu : transparence de la couche de fond ORBITE pour laisser apparaître le rendu natif derrière le hangar, sans image de substitution.
+- Couleurs et mélange pour coques, lasers et réacteurs, intensité des reflets, accent UI personnel ; les choix Original conservent leur apparence native.
+- Rochers : Original, Basalte, Glace minérale, Obsidienne, Cuivre cosmique. Géométrie native capturée après rencontre d’un rocher, avec couleur et éclat réglables. Les aperçus attendent les ressources réelles au lieu d’inventer une forme.
+- Profils : jusqu’à 12 thèmes nommés dans ce navigateur ; choix ORBITE, réglages, fond, modèle d’aperçu, couleur opaque et image ECP importée. Sauvegarder sous le même nom remplace le profil. Pas de synchronisation entre appareils. Un manque de stockage affiche une erreur sans supprimer les anciens profils.
+- Validation : démarrage/F8, variantes de matériaux, restauration, isolation des aperçus natifs, profils et erreurs de stockage ; aperçu local du menu. Rendu et performances dans une partie officielle à confirmer.

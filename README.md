@@ -1,4 +1,4 @@
-# ORBITE full edition — version 0.9.7
+# ORBITE full edition — version 0.9.8
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -100,3 +100,5 @@ Le panneau personnalisé ne contient plus score/kills ni niveau/vies. Le compteu
 Lasers : Fer de lance, Double hélice, Croissant plasma, Éclat de cristal, Impulsion segmentée. Coques : choisir Céramique mate pour afficher le sélecteur Couleur opaque. Couleur enregistrée localement et mise à jour sans reconstruire la géométrie. Matériaux officiels brillants : Zinc, Alliage, Or, Titane, Carbone, avec leurs textures et coordonnées originales préservées. Reflets renforcés, sans ajouter de géométrie. Aucun changement de dégâts ou de gameplay.
 
 Version 0.9.7 : panneau de réglages unique au menu et en partie, accès conservé après désactivation, ancien bouton NOVA masqué. Cinq choix de réacteurs, fond original du jeu, barres de statut officielles ou ORBITE. Réacteurs recolorés sur la silhouette et la poussée natives, sans ajout de particules.
+
+Version 0.9.8 : personnalisation intégrée au hangar, catégories de coques et de tirs, 15 variations des cinq matériaux natifs (Aurore, Prisme, Chrome), 17 lasers, 9 réacteurs, 5 interfaces dont Original. Les cartes des interfaces sont des simulations à données fictives utilisant les fonctions de dessin du HUD. Les réacteurs conservent la poussée et les attaches du jeu.

@@ -1,4 +1,4 @@
-# ORBITE full edition — version 0.9.9
+# ORBITE full edition — version 0.9.10
 Créateur : GIGACRMANTHE.
 
 ## Installation
@@ -112,3 +112,8 @@ Version 0.9.8 : personnalisation intégrée au hangar, catégories de coques et 
 - Rochers : Original, Basalte, Glace minérale, Obsidienne, Cuivre cosmique. Géométrie native capturée après rencontre d’un rocher, avec couleur et éclat réglables. Les aperçus attendent les ressources réelles au lieu d’inventer une forme.
 - Profils : jusqu’à 12 thèmes nommés dans ce navigateur ; choix ORBITE, réglages, fond, modèle d’aperçu, couleur opaque et image ECP importée. Sauvegarder sous le même nom remplace le profil. Pas de synchronisation entre appareils. Un manque de stockage affiche une erreur sans supprimer les anciens profils.
 - Validation : démarrage/F8, variantes de matériaux, restauration, isolation des aperçus natifs, profils et erreurs de stockage ; aperçu local du menu. Rendu et performances dans une partie officielle à confirmer.
+
+
+Version 0.9.10 : correction de la capture des réacteurs lorsque les fonctions natives sont déjà raccordées au client. Extraction de la géométrie sans rendu WebGL natif supplémentaire, libération du modèle temporaire et cache par modèle. Les aperçus indisponibles réessaient progressivement au lieu de rester bloqués ; changer d’onglet annule immédiatement l’attente. Modifier les couleurs d’un réacteur ou d’un laser conserve les autres aperçus en cache.
+
+Validation 0.9.10 : tests de capture après modification des fonctions natives, cache, nettoyage des modèles temporaires et limitation des tentatives réussis. Aperçus de réacteurs vérifiés dans le navigateur local sur Fly et Trident à partir du constructeur et de la texture natifs archivés. Pas de mesure de fluidité en partie officielle.
